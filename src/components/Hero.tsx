@@ -12,19 +12,30 @@ export default function Hero({ onExplore }: HeroProps) {
 
   {/* LEFT — Text */}
   <div>
-    <h1>
-      Build Your Ideal
-      <br />
-      <span className="brand-gradient">
-        Development Stack
-      </span>
-    </h1>
+       <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-pink-100 bg-pink-50 px-4 py-2">
+            <span className="text-sm">✨</span>
 
-    <p>
-      Explore frontend, backend, database, and tooling options,
-      compare them side by side, and put together the stack that
-      fits your next project.
-    </p>
+            <span className="text-xs font-semibold text-pink-600">
+              Build Your Future
+            </span>
+          </div>
+
+          {/* Heading */}
+          <h1 className="text-[58px] font-extrabold leading-[1.05] tracking-[-2.8px] text-[#101828] lg:text-[52px] md:text-[45px] sm:text-[38px]">
+            Build Your Ideal
+            <br />
+
+            <span className="brand-gradient">
+              Development Stack
+            </span>
+          </h1>
+
+          {/* Description */}
+          <p className="mt-6 max-w-[550px] text-[16px] leading-7 text-[#718096] md:text-[15px]">
+            Explore frontend, backend, database, and tooling options,
+            compare them side by side, and put together the stack that fits
+            your next project.
+          </p>
 
     <div className="mt-8 flex gap-3">
        <button
